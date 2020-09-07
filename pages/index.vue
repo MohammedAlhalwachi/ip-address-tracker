@@ -46,7 +46,7 @@
         <div id="map-wrap" class="relative z-0 h-screen">
             <client-only>
                 <l-map :zoom="20" :center="[lat, lng]">
-                    <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
+                    <l-tile-layer url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
                     <l-marker :lat-lng="[lat, lng]"></l-marker>
                 </l-map>
             </client-only>
