@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div id="map-wrap" class="relative z-0" style="height: 100vh">
+        <div id="map-wrap" class="relative z-0 h-screen">
             <client-only>
                 <l-map :zoom="20" :center="[lat, lng]">
                     <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
